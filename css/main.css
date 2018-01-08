@@ -1,0 +1,185 @@
+body {
+	background-image: url(../assets/img/blackboard.jpg);
+  background-size: cover;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h3{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 60px 15px;
+  border: 3px solid #8ca700;
+  color: #18951d;
+}
+
+h4 {
+  color: #55653F;
+  font-size: 24px;
+  display: inline-block;
+  margin: 0;
+  padding: 5px;
+}
+
+h6 {
+  color: #18951d;
+  margin: 0;
+  padding: 5px;
+}
+
+
+.container {
+	box-sizing: border-box;
+	clear: both;
+}
+
+header {
+	background: url(../assets/img/header-vrai.jpg) center;
+	height: 400px;
+}
+
+
+nav {
+  background-color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+li {
+  list-style-type: none;
+	padding-right: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+}
+
+nav li:hover {
+  border: 3px solid #18951d;
+}
+
+.menu ul, .menu li, .menu-mobile, .menu, li, .logo {
+  display: inline-block;
+  margin: 0;
+}
+
+.logo {
+  width: 9%;
+}
+
+
+.our-drinks {
+	display: inline-block;
+  color: #D3D3D3;
+  padding: 40px 30px;
+}
+
+.peppermint {
+  display: inline-block;
+  width: 90px;
+}
+
+.drinks-feature {
+  padding: 10px 0;
+}
+
+.drinks-icons {
+  background: url(../assets/img/background-pink.jpg) center;
+  background-size: cover;
+  border-radius: 100%;
+  display: inline-block;
+  height: 80px;
+  margin-right: 15px;
+  text-align: center;
+  width: 80px;
+}
+
+.drinks-feature-images {
+  border: 3px solid white;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  height: 60px;
+  padding: 5px;
+}
+
+/*----Estilos Quotes---*/
+
+.quote {
+  color: black;
+	display: inline-block;
+  padding: 20px 30px 40px 10px;
+  text-align: center;
+}
+
+.cocktels {
+  width: 70%;
+  margin-top: -80px;
+}
+
+/*----Fin Estilos Quotes---*/
+
+/*----Estilos Gallery---*/
+.gallery {
+
+	text-align: center;
+}
+
+.gallery-a, .gallery-b, .gallery-c {
+  background: url(../assets/img/wood.jpg) left;
+  background-size: contain;
+	display: inline-block;
+  margin: 10px 0 20px 0;
+  padding: 20px 10px;
+}
+
+.flavor-image {
+  width: 100%;
+}
+
+button {
+  background: rgba(250, 250, 250, 0.5);
+  border: 2px solid #8ca700;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:focus {
+  border-radius: 16px;
+  outline-color: #18951d;
+}
+
+/*----Fin Estilos Gallery---*/
+
+
+/*----Estilos Footer---*/
+
+footer {
+  background: rgba(250, 250, 250, 0.2);
+  color: white;
+  font-size: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/*----Fin Estilos Footer---*/
+
+
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child {
+	margin-left: 0;
+}
+
+.edge {
+	padding-left: 6.866%;
+}

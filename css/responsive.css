@@ -1,0 +1,21 @@
+@media all and (max-width: 768px){
+  body {
+    background-position: center;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+   .menu-mobile {
+    content: url(../assets/img/menu.svg);
+    height: 100%;
+    float: right;
+  }
+
+  .logo {
+    width: 15%;
+  }
+
+
+}
